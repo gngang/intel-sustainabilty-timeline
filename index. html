@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intel Sustainability Timeline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Intel</h1>
+    <h2>Sustainability Through the Ages</h2>
+    <p>
+      Explore Intel’s journey through time, discovering how our
+      commitment to innovation has shaped a more sustainable future
+      for technology and our planet.
+    </p>
+  </header>
+
+  <!-- Timeline Section -->
+  <main class="timeline">
+    <section class="card">
+      <h3>1968</h3>
+      <p class="title">Intel Founded</p>
+      <img src="images/1968.jpg" alt="Intel founded">
+      <div class="details">Intel was founded in 1968, starting its journey in technology.</div>
+    </section>
+
+    <section class="card">
+      <h3>1971</h3>
+      <p class="title">First Microprocessor</p>
+      <img src="images/1971.jpg" alt="First microprocessor">
+      <div class="details">Intel launched the first microprocessor, changing computing forever.</div>
+    </section>
+
+    <section class="card">
+      <h3>1978</h3>
+      <p class="title">8086 Processor</p>
+      <img src="images/1978.jpg" alt="Intel 8086 processor">
+      <div class="details">Intel introduced the 8086 processor, a major step in computer history.</div>
+    </section>
+
+    <section class="card">
+      <h3>1985</h3>
+      <p class="title">386 Processor</p>
+      <img src="images/1985.jpg" alt="Intel 386 processor">
+      <div class="details">The 386 processor with 32-bit architecture brought multitasking power to PCs.</div>
+    </section>
+  </main>
+
+  <!-- Footer Note -->
+  <footer>
+    <p>Scroll to view timeline | Hover over cards to learn more!</p>
+  </footer>
+</body>
+</html>
+
+
+
