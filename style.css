@@ -11,6 +11,33 @@ body {
   color: #333;
 }
 
+/* Reset or base styles at the top */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Section styles */
+header {
+  background: lightblue;
+  padding: 20px;
+}
+
+footer {
+  background: gray;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Your "remainder" can just go at the bottom */
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+
 /* Hero Section */
 .hero {
   text-align: center;
