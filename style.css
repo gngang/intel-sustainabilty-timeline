@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #0071c5, #005a9c);
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero h2 {
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+/* Timeline Section */
+.timeline {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 2rem;
+  scroll-snap-type: x mandatory; /* Bonus: smooth scroll snap */
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03); /* Bonus transform */
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+/* Hide details initially */
+.details {
+  display: none;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Show details on hover */
+.card:hover .details {
+  display: block;
+}
+
+/* Responsive: Stack vertically on small screens */
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    overflow-x: visible;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
